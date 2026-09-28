@@ -1,0 +1,448 @@
+[
+  {
+    "name": "app",
+    "type": "express-app",
+    "class": "express",
+    "file": "backend/server.js",
+    "line": 26
+  },
+  {
+    "name": "io",
+    "type": "object",
+    "class": "Server",
+    "file": "backend/server.js",
+    "line": 29
+  },
+  {
+    "name": "allowedOrigins",
+    "type": "function",
+    "file": "backend/server.js",
+    "line": 34
+  },
+  {
+    "name": "sanitize",
+    "type": "function",
+    "file": "backend/server.js",
+    "line": 127
+  },
+  {
+    "name": "pool",
+    "type": "database-pool",
+    "class": "pg.Pool",
+    "file": "backend/server.js",
+    "line": 198
+  },
+  {
+    "name": "sign",
+    "type": "function",
+    "file": "backend/server.js",
+    "line": 229
+  },
+  {
+    "name": "validate",
+    "type": "function",
+    "file": "backend/server.js",
+    "line": 236
+  },
+  {
+    "name": "revokedTokens",
+    "type": "object",
+    "class": "Set",
+    "file": "backend/server.js",
+    "line": 251
+  },
+  {
+    "name": "auth",
+    "type": "function",
+    "file": "backend/server.js",
+    "line": 253
+  },
+  {
+    "name": "/api/auth/logout",
+    "type": "route",
+    "method": "POST",
+    "file": "backend/server.js",
+    "line": 301
+  },
+  {
+    "name": "role",
+    "type": "function",
+    "file": "backend/server.js",
+    "line": 324
+  },
+  {
+    "name": "q",
+    "type": "function",
+    "file": "backend/server.js",
+    "line": 331
+  },
+  {
+    "name": "sanitizePatient",
+    "type": "function",
+    "file": "backend/server.js",
+    "line": 342
+  },
+  {
+    "name": "sanitizeDoctor",
+    "type": "function",
+    "file": "backend/server.js",
+    "line": 346
+  },
+  {
+    "name": "sanitizeUser",
+    "type": "function",
+    "file": "backend/server.js",
+    "line": 351
+  },
+  {
+    "name": "emit",
+    "type": "function",
+    "file": "backend/server.js",
+    "line": 371
+  },
+  {
+    "name": "captchaStore",
+    "type": "object",
+    "class": "Map",
+    "file": "backend/server.js",
+    "line": 403
+  },
+  {
+    "name": "signQRCode",
+    "type": "function",
+    "file": "backend/server.js",
+    "line": 411
+  },
+  {
+    "name": "verifyQRSignature",
+    "type": "function",
+    "file": "backend/server.js",
+    "line": 420
+  },
+  {
+    "name": "COMMON_PASSWORDS",
+    "type": "object",
+    "class": "Set",
+    "file": "backend/server.js",
+    "line": 439
+  },
+  {
+    "name": "isCommonPassword",
+    "type": "function",
+    "file": "backend/server.js",
+    "line": 444
+  },
+  {
+    "name": "verifyTurnstile",
+    "type": "function",
+    "file": "backend/server.js",
+    "line": 459
+  },
+  {
+    "name": "/api/auth/captcha",
+    "type": "route",
+    "method": "GET",
+    "file": "backend/server.js",
+    "line": 526
+  },
+  {
+    "name": "_decodeCookieToken",
+    "type": "function",
+    "file": "backend/server.js",
+    "line": 559
+  },
+  {
+    "name": "/",
+    "type": "route",
+    "method": "GET",
+    "file": "backend/server.js",
+    "line": 574
+  },
+  {
+    "name": "/api/health",
+    "type": "route",
+    "method": "GET",
+    "file": "backend/server.js",
+    "line": 651
+  },
+  {
+    "name": "/api/auth/register",
+    "type": "route",
+    "method": "POST",
+    "file": "backend/server.js",
+    "line": 658
+  },
+  {
+    "name": "/api/auth/login",
+    "type": "route",
+    "method": "POST",
+    "file": "backend/server.js",
+    "line": 710
+  },
+  {
+    "name": "/api/v1/hospitals",
+    "type": "route",
+    "method": "GET",
+    "file": "backend/server.js",
+    "line": 788
+  },
+  {
+    "name": "/api/auth/config",
+    "type": "route",
+    "method": "GET",
+    "file": "backend/server.js",
+    "line": 802
+  },
+  {
+    "name": "/api/auth/verify",
+    "type": "route",
+    "method": "GET",
+    "file": "backend/server.js",
+    "line": 832
+  },
+  {
+    "name": "/api/v1/overview",
+    "type": "route",
+    "method": "GET",
+    "file": "backend/server.js",
+    "line": 843
+  },
+  {
+    "name": "/api/v1/patients",
+    "type": "route",
+    "method": "GET",
+    "file": "backend/server.js",
+    "line": 889
+  },
+  {
+    "name": "/api/v1/patients",
+    "type": "route",
+    "method": "POST",
+    "file": "backend/server.js",
+    "line": 912
+  },
+  {
+    "name": "/api/v1/patients/:id",
+    "type": "route",
+    "method": "GET",
+    "file": "backend/server.js",
+    "line": 926
+  },
+  {
+    "name": "/api/v1/patients/:id",
+    "type": "route",
+    "method": "PUT",
+    "file": "backend/server.js",
+    "line": 942
+  },
+  {
+    "name": "/api/v1/patients/:id",
+    "type": "route",
+    "method": "DELETE",
+    "file": "backend/server.js",
+    "line": 958
+  },
+  {
+    "name": "/api/v1/doctors",
+    "type": "route",
+    "method": "GET",
+    "file": "backend/server.js",
+    "line": 982
+  },
+  {
+    "name": "/api/v1/doctors",
+    "type": "route",
+    "method": "POST",
+    "file": "backend/server.js",
+    "line": 994
+  },
+  {
+    "name": "/api/v1/doctors/:id",
+    "type": "route",
+    "method": "GET",
+    "file": "backend/server.js",
+    "line": 1007
+  },
+  {
+    "name": "/api/v1/doctors/:id",
+    "type": "route",
+    "method": "PUT",
+    "file": "backend/server.js",
+    "line": 1021
+  },
+  {
+    "name": "/api/v1/doctors/:id/status",
+    "type": "route",
+    "method": "PATCH",
+    "file": "backend/server.js",
+    "line": 1037
+  },
+  {
+    "name": "/api/v1/beds",
+    "type": "route",
+    "method": "GET",
+    "file": "backend/server.js",
+    "line": 1052
+  },
+  {
+    "name": "/api/v1/beds/:id",
+    "type": "route",
+    "method": "PATCH",
+    "file": "backend/server.js",
+    "line": 1062
+  },
+  {
+    "name": "/api/v1/appointments",
+    "type": "route",
+    "method": "GET",
+    "file": "backend/server.js",
+    "line": 1083
+  },
+  {
+    "name": "/api/v1/appointments",
+    "type": "route",
+    "method": "POST",
+    "file": "backend/server.js",
+    "line": 1099
+  },
+  {
+    "name": "/api/v1/appointments/:id/status",
+    "type": "route",
+    "method": "PATCH",
+    "file": "backend/server.js",
+    "line": 1123
+  },
+  {
+    "name": "/api/v1/medicines",
+    "type": "route",
+    "method": "GET",
+    "file": "backend/server.js",
+    "line": 1137
+  },
+  {
+    "name": "/api/v1/medicines",
+    "type": "route",
+    "method": "POST",
+    "file": "backend/server.js",
+    "line": 1153
+  },
+  {
+    "name": "/api/v1/medicines/:id/stock",
+    "type": "route",
+    "method": "PATCH",
+    "file": "backend/server.js",
+    "line": 1174
+  },
+  {
+    "name": "/api/v1/attendance",
+    "type": "route",
+    "method": "GET",
+    "file": "backend/server.js",
+    "line": 1189
+  },
+  {
+    "name": "/api/v1/attendance/checkin",
+    "type": "route",
+    "method": "POST",
+    "file": "backend/server.js",
+    "line": 1202
+  },
+  {
+    "name": "/api/v1/attendance/checkout",
+    "type": "route",
+    "method": "POST",
+    "file": "backend/server.js",
+    "line": 1230
+  },
+  {
+    "name": "/api/v1/orders",
+    "type": "route",
+    "method": "GET",
+    "file": "backend/server.js",
+    "line": 1254
+  },
+  {
+    "name": "/api/v1/orders",
+    "type": "route",
+    "method": "POST",
+    "file": "backend/server.js",
+    "line": 1261
+  },
+  {
+    "name": "/api/v1/orders/:id/status",
+    "type": "route",
+    "method": "PATCH",
+    "file": "backend/server.js",
+    "line": 1281
+  },
+  {
+    "name": "/api/v1/finance/overview",
+    "type": "route",
+    "method": "GET",
+    "file": "backend/server.js",
+    "line": 1295
+  },
+  {
+    "name": "/api/v1/finance/by-sector",
+    "type": "route",
+    "method": "GET",
+    "file": "backend/server.js",
+    "line": 1307
+  },
+  {
+    "name": "/api/v1/finance/trend",
+    "type": "route",
+    "method": "GET",
+    "file": "backend/server.js",
+    "line": 1319
+  },
+  {
+    "name": "/api/v1/finance/transaction",
+    "type": "route",
+    "method": "POST",
+    "file": "backend/server.js",
+    "line": 1331
+  },
+  {
+    "name": "/api/v1/notifications",
+    "type": "route",
+    "method": "GET",
+    "file": "backend/server.js",
+    "line": 1353
+  },
+  {
+    "name": "/api/v1/notifications/:id/read",
+    "type": "route",
+    "method": "PATCH",
+    "file": "backend/server.js",
+    "line": 1360
+  },
+  {
+    "name": "/api/v1/notifications/read-all",
+    "type": "route",
+    "method": "PATCH",
+    "file": "backend/server.js",
+    "line": 1370
+  },
+  {
+    "name": "/api/v1/notifications",
+    "type": "route",
+    "method": "POST",
+    "file": "backend/server.js",
+    "line": 1377
+  },
+  {
+    "name": "/api/v1/departments",
+    "type": "route",
+    "method": "GET",
+    "file": "backend/server.js",
+    "line": 1396
+  },
+  {
+    "name": "/api/v1/suppliers",
+    "type": "route",
+    "method": "GET",
+    "file": "backend/server.js",
+    "line": 1403
+  }
+]
